@@ -4,19 +4,24 @@ title:  "First paper!"
 date:   2018-11-08 16:10:16 +0800
 categories: paper
 ---
-这是为什么呢
+1.正文
+Hi,Leo!
 {% highlight ruby %}
 def print_hi(name)
-  puts "你大爷的Hello, #{name},hey man"
+  puts "Hey, #{name}"
 end
 print_hi('Sean')
 #=> prints 'Hi, Sean' to STDOUT.
 {% endhighlight %}
+
+2.超链接播放视频
 [testlink](http://baidu.com)
-![image2](/assets/images/testpic.PNG)
-![image3](https://github.com/GangsongDing/GangsongDing.github.io/blob/master/assets/images/testpic.PNG)
-![image4](https://github.com/GangsongDing/GangsongDing.github.io/blob/master/assets/images/test.gif)
+[testlink2](/assets/videos/testvid.mp4)
+
+3.图片
+![image2](/assets/images/testpic.jpg)
+
+4.GIF
 ![conv_ops](/assets/images/test.gif)
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
 
