@@ -19,7 +19,7 @@ print_hi('Sean')
 2.超链接播放视频
 
   
-[在线视频]src="https://www.bilibili.com/video/av23505616"
+[在线视频]<iframe src="//player.bilibili.com/player.html?aid=4130199&cid=6668671&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 
 [本地视频](/assets/videos/testvid.mp4)
