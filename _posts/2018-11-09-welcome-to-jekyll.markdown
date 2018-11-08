@@ -5,7 +5,9 @@ date:   2018-11-08 16:10:16 +0800
 categories: paper
 ---
 1.正文
+
 Hi,Leo!
+
 {% highlight ruby %}
 def print_hi(name)
   puts "Hey, #{name}"
@@ -16,18 +18,9 @@ print_hi('Sean')
 
 2.超链接播放视频
 
-<iframe 
-   
-	height=450 
-   
-	width=800 
-   
-	src="https://www.bilibili.com/video/av23505616"
-	frameborder=0 
-   
-	allowfullscreen>
+  
+[在线视频]src="https://www.bilibili.com/video/av23505616"
 
-</iframe>
 
 [本地视频](/assets/videos/testvid.mp4)
 
