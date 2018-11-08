@@ -16,6 +16,7 @@ print_hi('Sean')
 
 2.超链接播放视频
 [百度](http://baidu.com)
+
 <iframe 
    
  height=450 
@@ -33,7 +34,7 @@ print_hi('Sean')
 [本地视频](/assets/videos/testvid.mp4)
 
 3.图片
-![image2](/assets/images/testpic.jpg)
+![image2](/assets/images/testpic.bmp)
 
 4.GIF
 ![conv_ops](/assets/images/testgif.gif)
