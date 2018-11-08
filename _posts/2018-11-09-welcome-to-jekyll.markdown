@@ -19,7 +19,11 @@ print_hi('Sean')
 2.超链接播放视频
 
   
-[在线视频]<iframe src="//player.bilibili.com/player.html?aid=4130199&cid=6668671&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+[在线视频]
+
+<video id="video" controls="" preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
+  <source id="mp4" src="https://www.bilibili.com/video/av4130199/" type="video/mp4">
+</video>
 
 <video id="video" controls="" preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
   <source id="mp4" src="http://gslb.miaopai.com/stream/PAEyMDoxMSB9hV6BVT1l5SHT-sMVVRVgHlL7bA__.mp4?mpflag=64&amp;vend=1&amp;os=3&amp;partner=1&amp;platform=2&amp;cookie_id=&amp;refer=miaopai&amp;scid=PAEyMDoxMSB9hV6BVT1l5SHT-sMVVRVgHlL7bA__ " type="video/mp4">
