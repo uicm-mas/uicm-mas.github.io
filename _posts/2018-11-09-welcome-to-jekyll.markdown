@@ -13,7 +13,7 @@ print_hi('Sean')
 #=> prints 'Hi, Sean' to STDOUT.
 {% endhighlight %}
 [testlink](http://baidu.com)
-
+![image1](../../assets/images/testpic.PNG)
 ![image2](https://github.com/GangsongDing/GangsongDing.github.io/blob/master/assets/images/testpic.PNG)
 ![image3](../../../assets/images/testpic.PNG)
 ![image4](https://github.com/GangsongDing/GangsongDing.github.io/blob/master/assets/images/test.gif)
