@@ -22,7 +22,7 @@ print_hi('Sean')
 [在线视频]
 
 <video id="video" controls="" preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
-  <source id="mp4" src="https://www.bilibili.com/video/av4130199/" type="video/mp4">
+  <source id="mp4" src="/assets/videos/testvid.mp4" type="video/mp4">
 </video>
 
 <video id="video" controls="" preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
