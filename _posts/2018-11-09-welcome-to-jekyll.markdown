@@ -15,8 +15,22 @@ print_hi('Sean')
 {% endhighlight %}
 
 2.超链接播放视频
-[testlink](http://baidu.com)
-[testlink2](/assets/videos/testvid.mp4)
+[百度](http://baidu.com)
+<iframe 
+   
+ height=450 
+   
+ width=800 
+   
+ src="https://www.bilibili.com/video/av23505616" 
+   
+ frameborder=0 
+   
+ allowfullscreen>
+
+</iframe>
+
+[本地视频](/assets/videos/testvid.mp4)
 
 3.图片
 ![image2](/assets/images/testpic.jpg)
