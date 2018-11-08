@@ -15,7 +15,6 @@ print_hi('Sean')
 {% endhighlight %}
 
 2.超链接播放视频
-[百度](http://baidu.com)
 
 <iframe 
    
