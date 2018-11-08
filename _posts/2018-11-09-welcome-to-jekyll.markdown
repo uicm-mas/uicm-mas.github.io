@@ -22,6 +22,6 @@ print_hi('Sean')
 ![image2](/assets/images/testpic.jpg)
 
 4.GIF
-![conv_ops](/assets/images/test.gif)
+![conv_ops](/assets/images/testgif.gif)
 
 
