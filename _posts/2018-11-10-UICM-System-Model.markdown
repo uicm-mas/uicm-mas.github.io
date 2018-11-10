@@ -80,7 +80,7 @@ In the up-coming chapter, we will dive deeper into the information source and de
 
 var gitment = new Gitment({
     
-owner: 'uicm-mas',
+owner: 'Chu Bai',
     
 repo: 'https://github.com/uicm-mas/uicm-mas.github.io.git',
     
