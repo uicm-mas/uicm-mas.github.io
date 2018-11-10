@@ -26,7 +26,7 @@ var gitment = new Gitment({
     
 owner: 'uicm-mas',
     
-repo: 'https://github.com/uicm-mas/uicm-mas.github.io',
+repo: 'https://github.com/uicm-mas/uicm-mas.github.io.git',
     
 oauth: {
         client_id: 'a4bc930ad7a73bae8bdf',
