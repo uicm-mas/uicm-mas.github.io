@@ -57,9 +57,9 @@ owner: 'uicm-mas',
 repo: 'https://github.com/uicm-mas/uicm-mas.github.io',
     
 oauth: {
-        client_id: '4d4c182500b44b523097',
+        client_id: '18a165f5d54ee50fc269',
         
-client_secret: '8d2df85ee9988be2f2a98565ad91c4d095fae0df',
+client_secret: '8abc39c0bae1859cb71bbe4cef2c982179c096ca',
    
  },
 
