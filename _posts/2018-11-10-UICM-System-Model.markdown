@@ -80,14 +80,14 @@ In the up-coming chapter, we will dive deeper into the information source and de
 
 var gitment = new Gitment({
     
-owner: 'Chu Bai',
+owner: 'uicm-mas',
     
-repo: 'https://github.com/uicm-mas/uicm-mas.github.io.git',
+repo: 'https://github.com/uicm-mas/uicm-mas.github.io',
     
 oauth: {
-        client_id: 'f6f03fc1d104203a3490',
+        client_id: '4d4c182500b44b523097',
         
-client_secret: '1e6623294cbc1d0fdf93ae79ad2611534a84b2c4',
+client_secret: '8d2df85ee9988be2f2a98565ad91c4d095fae0df',
    
  },
 

@@ -45,21 +45,21 @@ Please note the following contents may change during the release of the paper.
 
 <div id="gitmentContainer">
 </div>
-<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
 
-<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script src="https://jjeejj.github.io/js/gitment.js"></script>
 <script>
 
 var gitment = new Gitment({
     
 owner: 'uicm-mas',
     
-repo: 'https://github.com/uicm-mas/uicm-mas.github.io.git',
+repo: 'https://github.com/uicm-mas/uicm-mas.github.io',
     
 oauth: {
-        client_id: 'ab2cab6d0a9b5feaa8a6',
+        client_id: '4d4c182500b44b523097',
         
-client_secret: 'f18edfb1aad0f67001855682e19fa4535026e2c5',
+client_secret: '8d2df85ee9988be2f2a98565ad91c4d095fae0df',
    
  },
 

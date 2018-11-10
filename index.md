@@ -15,29 +15,3 @@ var _hmt = _hmt || [];
 })();
 </script>
 
-<div id="gitmentContainer">
-</div>
-<link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
-
-<script src="https://jjeejj.github.io/js/gitment.js"></script>
-<script>
-
-var gitment = new Gitment({
-    
-owner: 'uicm-mas',
-    
-repo: 'https://github.com/uicm-mas/uicm-mas.github.io',
-    
-oauth: {
-        client_id: '4d4c182500b44b523097',
-        
-client_secret: '8d2df85ee9988be2f2a98565ad91c4d095fae0df',
-   
- },
-
-});
-
-gitment.render('gitmentContainer');
-
-</script>
-
