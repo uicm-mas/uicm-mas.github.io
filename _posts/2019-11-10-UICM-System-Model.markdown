@@ -23,13 +23,10 @@ The Shannon-Weaver model proposed in the pioneering paper "A mathematical theory
 
 <center>
 <img src="/assets/images/Shannon-Weaver-Model-NoFeedback.png" width="5%" height="5%" />
-Figure 1. Lena
+Figure 1. Shannon-Weaver-Model-NoFeedback
 </center>
 
-<center>
-![image1](/assets/images/Shannon-Weaver-Model-NoFeedback.png width="5%" height="5%")
-Figure 1. Lena
-</center>
+
 
 ## Complex Interactions Modeling: Is Shannon-Weaver Model Sufficient?
 This paper is definitely **NOT** the first effort to apply Shannon-Weaver Model to model and understand the interactions between agents and the environment.
