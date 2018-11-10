@@ -19,7 +19,11 @@ Further insights of the UIC model, as proposed in the outline of this paper, wou
 This section applies the Shannon-Weaver Model to describe complex forms of interactions between agents and environments.
 
 The Shannon-Weaver model proposed in the pioneering paper "A mathematical theory of communication" may be illustrated as follows, and please note that the Weiner's feedback is not included for now. 
-![image1](/assets/images/Shannon-Weaver-Model-NoFeedback.png)
+
+<center>
+![image1](/assets/images/Shannon-Weaver-Model-NoFeedback.png width="25%" height="25%")
+Figure 1. Lena
+</center>
 
 ## Complex Interactions Modeling: Is Shannon-Weaver Model Sufficient?
 This paper is definitely **NOT** the first effort to apply Shannon-Weaver Model to model and understand the interactions between agents and the environment.
