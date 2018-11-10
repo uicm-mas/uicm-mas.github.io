@@ -71,4 +71,30 @@ In the up-coming chapter, we will dive deeper into the information source and de
 ### References
 [1] Shannon, Claude Elwood. "A mathematical theory of communication." Bell system technical journal 27.3 (1948): 379-423.
 
+<div id="gitmentContainer">
+</div>
+<link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
+
+<script src="https://jjeejj.github.io/js/gitment.js"></script>
+<script>
+
+var gitment = new Gitment({
+    
+owner: 'uicm-mas',
+    
+repo: 'https://github.com/uicm-mas/uicm-mas.github.io',
+    
+oauth: {
+        client_id: 'f6f03fc1d104203a3490',
+        
+client_secret: '1e6623294cbc1d0fdf93ae79ad2611534a84b2c4',
+   
+ },
+
+});
+
+gitment.render('gitmentContainer');
+
+</script>
+
 
