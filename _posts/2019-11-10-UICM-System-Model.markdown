@@ -58,10 +58,10 @@ Therefore, the interactions between an agent and the environment may be categori
 
 We may now graphically depict the first UIC model figure, focusing on using the Shannon-Weaver model to interpret the interactions between the agent and the environment. 
 
-<center>
-<img src="/assets/images/agent-env-interactive-model.png" width="50%" height="50%" />
+
+<img src="/assets/images/agent-env-interactive-model.png" width="50%" height="50%" div align=center />
 Figure 2. agent-env-interactive-model
-</center>
+
 
 
 In the up-coming chapter, we will dive deeper into the information source and destination in the agent.
