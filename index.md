@@ -24,7 +24,7 @@ var _hmt = _hmt || [];
 
 var gitment = new Gitment({
     
-owner: 'Chu Bai',
+owner: 'uicm-mas',
     
 repo: 'uicm-mas.github.io',
     
