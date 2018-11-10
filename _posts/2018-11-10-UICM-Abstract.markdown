@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-title:  "An Unified Intelligence-Communication Model for Multi-Agent System: Overview and Case Studies -- Abstract"
+title:  "An Unified Intelligence-Communication Model for Multi-Agent System: Overview and Case Studies -- Abstract and Outline of the Paper"
 date:   2018-11-09 16:10:16 +0800
 categories: Open-Access Research Paper
 ---
@@ -27,6 +27,8 @@ Finally, the paper provides further insights motivated by the UIC model, such as
 + A dual model for agent-environment intelligence hypothesis
 
 ## Outline of the Paper
+The paper would be released by Chapters, and may be updated because of continuous 
+introspection of the author and feedback from readers.
 + Chapter 1: A Brief Introduction of the UIC Model - From Shannon's Perspective
 + Chapter 2: Unifying models for an Agent and a Multi-Agent System (MAS)
 + Chapter 3: UIC Model for Describing Multi-Modal Agent Behaviours
