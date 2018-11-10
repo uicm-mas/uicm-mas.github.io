@@ -5,6 +5,34 @@
 layout: home
 ---
 
+<div id="gitmentContainer">
+</div>
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+
+var gitment = new Gitment({
+    
+owner: 'uicm-mas',
+    
+repo: 'https://github.com/uicm-mas/uicm-mas.github.io',
+    
+oauth: {
+        client_id: '586c9be8bf52696ba2e3',
+        
+client_secret: '6734dd6457c5b1f8cc9b7ee4891618d61cd7e0f9',
+   
+ },
+
+});
+
+gitment.render('gitmentContainer');
+
+</script>
+
+
+
 <script>
 var _hmt = _hmt || [];
 (function() {
