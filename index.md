@@ -23,7 +23,8 @@ var _hmt = _hmt || [];
 <script>
 
 var gitment = new Gitment({
-    
+   
+id: '<%= page.date %>', 
 owner: 'uicm-mas',
     
 repo: 'uicm-mas.github.io',

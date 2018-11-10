@@ -80,6 +80,7 @@ In the up-coming chapter, we will dive deeper into the information source and de
 
 var gitment = new Gitment({
     
+id: '<%= page.date %>',
 owner: 'uicm-mas',
     
 repo: 'uicm-mas.github.io',

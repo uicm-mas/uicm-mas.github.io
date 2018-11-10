@@ -52,6 +52,7 @@ Please note the following contents may change during the release of the paper.
 
 var gitment = new Gitment({
     
+id: '<%= page.date %>',
 owner: 'uicm-mas',
     
 repo: 'uicm-mas.github.io',
