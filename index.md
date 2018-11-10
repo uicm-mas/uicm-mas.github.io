@@ -47,8 +47,10 @@ Having trouble with Pages? Check out our [documentation](https://help.github.com
 var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?05ea640ddd52416a37c2cd0fcc8fb644";
+  hm.src = "https://hm.baidu.com/hm.js?9351512b626de5011fb5fb1143ce1721";
   var s = document.getElementsByTagName("script")[0]; 
   s.parentNode.insertBefore(hm, s);
 })();
+</script>
+
 </script>
