@@ -24,7 +24,7 @@ The Shannon-Weaver model proposed in the pioneering paper "A mathematical theory
 <center>
 <img src="/assets/images/Shannon-Weaver-Model-NoFeedback.png" width="100%" height="100%" />
 
-               Figure 1. Shannon-Weaver-Model-NoFeedback
+&emsp;&emsp;Figure 1. Shannon-Weaver-Model-NoFeedback
 </center>
 
 
@@ -63,7 +63,7 @@ We may now graphically depict the first UIC model figure, focusing on using the 
 <div align="center">
 <img src="/assets/images/agent-env-interactive-model.png" width="50%" height="50%" />
 
-                Figure 2. agent-env-interactive-model
+&emsp;&emsp;Figure 2. agent-env-interactive-model
 </div>
 
 In the up-coming chapter, we will dive deeper into the information source and destination in the agent.
