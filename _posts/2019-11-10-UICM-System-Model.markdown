@@ -21,11 +21,11 @@ This section applies the Shannon-Weaver Model to describe complex forms of inter
 The Shannon-Weaver model proposed in the pioneering paper "A mathematical theory of communication" may be illustrated as follows, and please note that the Weiner's feedback is not included for now. 
 
 
-<center>
+<div align="center">
 <img src="/assets/images/Shannon-Weaver-Model-NoFeedback.png" width="100%" height="100%" />
 
 &emsp;&emsp;Figure 1. Shannon-Weaver-Model-NoFeedback
-</center>
+</div>
 
 
 
