@@ -16,10 +16,12 @@
 title: Dive into the Origin of the Intelligence
 email: bo.zhang.airc@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
-  This site records the evolution of my research process in understanding how intelligence may be modeled, using the great tools built by the pioneers in Information Theory, Complex Adaptive System and Artificial Intelligence.  
+  This site records the evolution of my research process in understanding how intelligence 
+  may be modeled, using the great tools built by the pioneers in Information Theory, 
+  Complex Adaptive System and Artificial Intelligence.  
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: uicm-mas
+# twitter_username: uicm-mas
 github_username:  uicm-mas
 
 # Build settings

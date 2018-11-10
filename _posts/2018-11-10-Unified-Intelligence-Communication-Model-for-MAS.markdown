@@ -2,10 +2,11 @@
 layout: post
 title:  "An Unified Intelligence-Communication Model for Multi-Agent System: Overview and Case Studies -- Abstract"
 date:   2018-11-09 16:10:16 +0800
+Authors: Bo Zhang, Jinyu Yang, Zixuan Zhang, Gangsong Ding and Qinghao Wu
 categories: Open-Access Research Paper
 ---
 
-This is paper would be interactive and fully open-access. My handwriting manuscript is prepared, but I need time to craft it into a rigorous research treatize. 
+This paper would be interactive and fully open-access. My handwriting manuscript is prepared, but I need time to craft it into a rigorous research treatize. 
 
 ## Abstract 
 
