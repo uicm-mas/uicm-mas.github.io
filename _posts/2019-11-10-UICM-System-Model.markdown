@@ -22,7 +22,7 @@ The Shannon-Weaver model proposed in the pioneering paper "A mathematical theory
 
 
 <div align="center">
-<img src="/assets/images/Shannon-Weaver-Model-NoFeedback.png" width="100%" height="100%" />
+<img src="/assets/images/Shannon-Weaver-Model-NoFeedback.png" width="20%" height="20%" />
 
 &emsp;&emsp;Figure 1. Shannon-Weaver-Model-NoFeedback
 </div>
