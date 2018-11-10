@@ -61,9 +61,9 @@ We may now graphically depict the first UIC model figure, focusing on using the 
 
 
 <div align="center">
-<img src="/assets/images/agent-env-interactive-model.png" width="80%" height="80%" />
+<img src="/assets/images/agent-env-interactive-model.png" width="80%" height="80%" />  
 
-&emsp;&emsp;Figure 2. agent-env-interactive-model
+Figure 2. agent-env-interactive-model
 </div>
 
 In the up-coming chapter, we will dive deeper into the information source and destination in the agent.
