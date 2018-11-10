@@ -49,6 +49,11 @@ Therefore, the interactions between an agent and the environment may be categori
     + Based on the UIC Assumption, any action may be modelled as a form of wave interactions, action is modelled as the energy and information transfer from the agent to the environment.
     + The action module of an agent is then modelled as a set of **channel transmitters**, where each transmitter modulates a certain set of waves with information, and a feedback from the receiver, as shown by Shannon and Wiener, may greatly improves the optimal transmitter-receiver design.
 
+We may now graphically depict the first UIC model figure, focusing on using the Shannon-Weaver model to interpret the interactions between the agent and the environment. 
+
+![image1](/assets/images/agent-env-interactive-model.png)
+
+In the up-coming chapter, we will dive deeper into the information source and destination in the agent.
 
 ### References
 [1] Shannon, Claude Elwood. "A mathematical theory of communication." Bell system technical journal 27.3 (1948): 379-423.

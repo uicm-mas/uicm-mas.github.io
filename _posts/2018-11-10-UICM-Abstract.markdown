@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title:  "An Unified Intelligence-Communication Model for Multi-Agent System: Overview and Case Studies -- Abstract and Outline of the Paper"
 date:   2018-11-09 16:10:16 +0800
@@ -28,12 +28,17 @@ Finally, the paper provides further insights motivated by the UIC model, such as
 
 ## Outline of the Paper
 The paper would be released by Chapters, and may be updated because of continuous 
-introspection of the author and feedback from readers.
+introspection of the author and feedback from readers. 
+
+Please contact bo.zhang.airc@outlook.com to share your opinions and suggestions for the paper. 
+
+Please note the following contents may change during the release of the paper.
 + Chapter 1: A Brief Introduction of the UIC Model - From Shannon's Perspective
-+ Chapter 2: Unifying models for an Agent and a Multi-Agent System (MAS)
-+ Chapter 3: UIC Model for Quantifying Intelligence Level of MAS 
-+ Chaptre 4: Case Study of UIC Model in Analyzing Natural MAS
-+ Chapter 5: Case Study of UIC Model in Designing Artificial MAS
-+ Chapter 6: Hypothesis of UIC Model for Explaining Intelligence Emergence Mechanism
-+ Chapter 7: Hypothesis of UIC Model for Explaining Intelligence of the Environment
-+ Chapter 8: Conclusions and Future Research
++ Chapter 2: Modelling the Information Source and Destination in the Agent
++ Chapter 3: Unifying models for an Agent and a Multi-Agent System (MAS)
++ Chapter 4: UIC Model for Quantifying Intelligence Level of MAS 
++ Chaptre 5: Case Study of UIC Model in Analyzing Natural MAS
++ Chapter 6: Case Study of UIC Model in Designing Artificial MAS
++ Chapter 7: Hypothesis of UIC Model for Explaining Intelligence Emergence Mechanism
++ Chapter 8: Hypothesis of UIC Model for Explaining Intelligence of the Environment
++ Chapter 9: Conclusions and Future Research
