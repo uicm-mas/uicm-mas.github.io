@@ -22,7 +22,7 @@ The Shannon-Weaver model proposed in the pioneering paper "A mathematical theory
 
 
 <center>
-<img src="/assets/images/Shannon-Weaver-Model-NoFeedback.png" width="5%" height="5%" />
+<img src="/assets/images/Shannon-Weaver-Model-NoFeedback.png" width="100%" height="100%" />
 Figure 1. Shannon-Weaver-Model-NoFeedback
 </center>
 
@@ -57,6 +57,11 @@ Therefore, the interactions between an agent and the environment may be categori
     + The action module of an agent is then modelled as a set of **channel transmitters**, where each transmitter modulates a certain set of waves with information, and a feedback from the receiver, as shown by Shannon and Wiener, may greatly improves the optimal transmitter-receiver design.
 
 We may now graphically depict the first UIC model figure, focusing on using the Shannon-Weaver model to interpret the interactions between the agent and the environment. 
+
+<center>
+<img src="/assets/images/agent-env-interactive-model.png" width="20%" height="20%" />
+Figure 2. agent-env-interactive-model
+</center>
 
 ![image1](/assets/images/agent-env-interactive-model.png)
 
