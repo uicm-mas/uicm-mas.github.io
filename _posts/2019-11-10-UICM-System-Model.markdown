@@ -4,7 +4,7 @@ title:  "An Unified Intelligence-Communication Model for Multi-Agent System: Ove
 date:   2018-11-09 16:10:16 +0800
 categories: Open-Access Research Paper
 ---
-Authored by: Bo Zhang, Jinyu Yang, Zixuan Zhang, Gangsong Ding and Qinghao Wu
+**Authored by: Bo Zhang, Jinyu Yang, Zixuan Zhang, Gangsong Ding and Qinghao Wu**
 
 This paper would be fully open-access. My handwriting manuscript is prepared, but I need time to craft it into a rigorous research treatize. 
 
@@ -15,6 +15,6 @@ This Chapter introduces the motivation of the UIC model and the basic graphical 
     + Multi-modal perceiving and acting capability is abstracted as multiple encoder-decoder pairs.  
 Further insights of the UIC model, as proposed in the outline of this paper, would be discussed in depth in the following-up Chapters. 
 
-## Chapter One: A Brief Overview of the UIC Model  
+## Review of the Shannon-Weaver Model 
 
 
