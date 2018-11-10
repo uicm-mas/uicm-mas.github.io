@@ -6,7 +6,7 @@ categories: paper
 ---
 1.正文
 
-Hi,Leo!
+Hi,uicm!
 
 {% highlight ruby %}
 def print_hi(name)
