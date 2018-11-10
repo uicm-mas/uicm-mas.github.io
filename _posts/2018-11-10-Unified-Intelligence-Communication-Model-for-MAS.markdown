@@ -24,5 +24,3 @@ Finally, the paper provides further insights motivated by the UIC model, such as
 + Unification of single intelligence and collective intelligence
 + An possible explanation of intelligence emergence
 + A dual model for agent-environment intelligence hypothesis
-
-{% include baidu-analysis.html %}
