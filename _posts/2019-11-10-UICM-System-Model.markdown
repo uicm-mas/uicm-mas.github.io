@@ -22,7 +22,7 @@ The Shannon-Weaver model proposed in the pioneering paper "A mathematical theory
 
 
 <div align="center">
-<img src="/assets/images/Shannon-Weaver-Model-NoFeedback.png" width="20%" height="20%" />
+<img src="/assets/images/Shannon-Weaver-Model-NoFeedback.png" width="100%" height="100%" />
 
 &emsp;&emsp;Figure 1. Shannon-Weaver-Model-NoFeedback
 </div>
@@ -62,7 +62,7 @@ We may now graphically depict the first UIC model figure, focusing on using the 
 
 <div align="center">
 <img src="/assets/images/agent-env-interactive-model.png" width="50%" height="50%" />  
-
+<br/><\br>
 Figure 2. agent-env-interactive-model
 </div>
 
