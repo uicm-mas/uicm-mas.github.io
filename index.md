@@ -31,7 +31,7 @@ repo: 'https://github.com/uicm-mas/uicm-mas.github.io',
 oauth: {
         client_id: 'a4bc930ad7a73bae8bdf',
         
-client_secret: 'c4ccad7d5408eb4112ca9a5238027739fce40c64',
+client_secret: '21a5fa56694e2dcbceb2724d6a74b52fc2be39ec',
    
  },
 
