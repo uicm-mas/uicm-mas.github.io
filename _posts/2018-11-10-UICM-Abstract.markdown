@@ -25,3 +25,14 @@ Finally, the paper provides further insights motivated by the UIC model, such as
 + Unification of single intelligence and collective intelligence
 + An possible explanation of intelligence emergence
 + A dual model for agent-environment intelligence hypothesis
+
+## Outline of the Paper
++ Chapter 1: A Brief Introduction of the UIC Model - From Shannon's Perspective
++ Chapter 2: Unifying models for an Agent and a Multi-Agent System (MAS)
++ Chapter 3: UIC Model for Describing Multi-Modal Agent Behaviours
++ Chapter 4: UIC Model for Quantifying Intelligence Level of MAS 
++ Chaptre 5: Case Study of UIC Model in Analyzing Natural MAS
++ Chapter 6: Case Study of UIC Model in Designing Artificial MAS
++ Chapter 7: Hypothesis of UIC Model for Explaining Intelligence Emergence Mechanism
++ Chapter 8: Hypothesis of UIC Model for Explaining Intelligence of the Environment
++ Chapter 9: Conclusions and Future Research
