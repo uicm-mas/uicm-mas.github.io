@@ -24,9 +24,9 @@ var _hmt = _hmt || [];
 
 var gitment = new Gitment({
     
-owner: 'uicm-mas',
+owner: 'Chu Bai',
     
-repo: 'https://github.com/uicm-mas/issues',
+repo: 'uicm-mas.github.io',
     
 oauth: {
         client_id: '4d4c182500b44b523097',
