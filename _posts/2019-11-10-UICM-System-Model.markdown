@@ -61,7 +61,7 @@ We may now graphically depict the first UIC model figure, focusing on using the 
 
 
 <div align="center">
-<img src="/assets/images/agent-env-interactive-model.png" width="80%" height="80%" />  
+<img src="/assets/images/agent-env-interactive-model.png" width="50%" height="50%" />  
 
 Figure 2. agent-env-interactive-model
 </div>
