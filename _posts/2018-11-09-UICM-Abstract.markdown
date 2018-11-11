@@ -10,7 +10,7 @@ This paper would be fully open-access. My handwriting manuscript is prepared, bu
 
 ## Abstract 
 
-Motivated by Shannon-Weaver model and recent rehabiliation of self-supervised artificial intelligence having a "World Model", this paper propose an **unified intelligence-communication (UIC) model** for describing a single agent and any multi-agent system. 
+Motivated by Shannon's model and recent rehabiliation of self-supervised artificial intelligence having a "World Model", this paper propose an **unified intelligence-communication (UIC) model** for describing a single agent and any multi-agent system. 
 The model try to incorporates the following contributions.
 + The environment is modelled as the generic communication channel between agents. 
 + The model leads to important insights on that "Any intelligent structure is an aggregation of multiple agents", where the simplest or basic unit of a agent is represented by "IF-THEN" rule**, as proposed by Holland and Marvinminsky.
