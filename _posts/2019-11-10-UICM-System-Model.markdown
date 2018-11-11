@@ -4,7 +4,7 @@ title:  "An Unified Intelligence-Communication Model for Multi-Agent System: Ove
 date:   2018-11-09 16:10:16 +0800
 categories: Open-Access Research Paper
 ---
-**Authored by: Bo Zhang, Jinyu Yang, Zixuan Zhang, Gangsong Ding and Qinghao Wu**
+**Authored by: Bo Zhang, Jinyu Yang, Zixuan Zhang, Gangsong Ding and Qinhao Wu**
 
 This paper would be fully open-access. My handwriting manuscript is prepared, but I need time to craft it into a rigorous research treatize. 
 
@@ -19,7 +19,12 @@ Further insights of the UIC model, as proposed in the outline of this paper, wou
 This section applies the Shannon-Weaver Model to describe complex forms of interactions between agents and environments.
 
 The Shannon-Weaver model proposed in the pioneering paper "A mathematical theory of communication" may be illustrated as follows, and please note that the Weiner's feedback is not included for now. 
-![image1](/assets/images/Shannon-Weaver-Model-NoFeedback.png)
+
+<div align="center">
+<img src="/assets/images/Shannon-Weaver-Model-NoFeedback.png" width="100%" height="100%" />
+<br/>
+Figure 1. Shannon-Weaver Model without Feedback
+</div>
 
 ## Complex Interactions Modeling: Is Shannon-Weaver Model Sufficient?
 This paper is definitely **NOT** the first effort to apply Shannon-Weaver Model to model and understand the interactions between agents and the environment.
@@ -45,13 +50,17 @@ Therefore, the interactions between an agent and the environment may be categori
 + **Perception**: perception may be considered as the measuremnt of energy and information carrid by a wave in the environment. 
     + Based on the UIC Assumption, perception is modelled as the energy and information transfer from the environment to the agent. 
     + The perception module of an agent is then modelled as a set of **channel receivers**, where each receiver extracts information from the waves, and an optimal receiver extracts the maximum amount of information, as bounded by the Shannon Capacity.
-+ **Action**: action taken by an agent may be in the macro and micro level, and in various domains, e.g. spatial, frequence, energy, etc. 
++ **Action**: action taken by an agent may be in the macro and micro level, and in various domains, e.g. spatial, frequency, energy, etc. 
     + Based on the UIC Assumption, any action may be modelled as a form of wave interactions, action is modelled as the energy and information transfer from the agent to the environment.
     + The action module of an agent is then modelled as a set of **channel transmitters**, where each transmitter modulates a certain set of waves with information, and a feedback from the receiver, as shown by Shannon and Wiener, may greatly improves the optimal transmitter-receiver design.
 
 We may now graphically depict the first UIC model figure, focusing on using the Shannon-Weaver model to interpret the interactions between the agent and the environment. 
 
-![image1](/assets/images/agent-env-interactive-model.png)
+<div align="center">
+<img src="/assets/images/agent-env-interactive-model.png" width="50%" height="50%" />  
+<br/>
+Figure 2. Interactive Model between the Agent and the Environment
+</div>
 
 In the up-coming chapter, we will dive deeper into the information source and destination in the agent.
 
