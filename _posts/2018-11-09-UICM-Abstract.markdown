@@ -42,3 +42,31 @@ Please note the following contents may change during the release of the paper.
 + Chapter 7: Hypothesis of UIC Model for Explaining Intelligence Emergence Mechanism
 + Chapter 8: Hypothesis of UIC Model for Explaining Intelligence of the Environment
 + Chapter 9: Conclusions and Future Research
+
+<div id="gitmentContainer">
+</div>
+<link rel="stylesheet" href="https://jjeejj.github.io/css/gitment.css">
+
+<script src="https://jjeejj.github.io/js/gitment.js"></script>
+<script>
+
+var gitment = new Gitment({
+    
+id: '<%= page.date %>',
+owner: 'uicm-mas',
+    
+repo: 'uicm-mas.github.io',
+    
+oauth: {
+        client_id: '18a165f5d54ee50fc269',
+        
+client_secret: '8abc39c0bae1859cb71bbe4cef2c982179c096ca',
+   
+ },
+
+});
+
+gitment.render('gitmentContainer');
+
+</script>
+
