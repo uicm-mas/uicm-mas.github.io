@@ -98,7 +98,7 @@ Specifically, we may re-organize Minsky's thoughts as follows:
 + **Problem Generator Design**: The layers higher than deliberate thinking motivate an agent to criticize the reactive actions and explore un-explored world.  
 
 #### Self-Supervised Learning Agent Model
-Very recently, Professor Yann Lecun proposed an agent model based on the concept of **Self-Supervised Learning** with both a **deep structure** and **a world Model**. Therefore, the agent may do reasoning by combining predicting and planning with the aid of model-based deep reinforcement learning. Specifically, Lecun considered the following strategies:
+Very recently, Professor Yann Lecun proposed an agent model based on the concept of **Self-Supervised Learning** with both a **deep structure** and **a world Model**[5]. The agent may do reasoning by combining predicting and planning with the aid of model-based deep reinforcement learning. Specifically, Lecun considered the following strategies:
 + **Performance Element Design**: A world model is needed, accumulating background knowledge about how the world works and perhaps include common sense. Deep (artificial neural) networks may model complex interactions with the aid of non-linear transformations within a manageable scale.
 + **Learning Element and Critic Design**: Latent-variable forward models is proposed for planning and learning policies, but it is also far from a complete solution.
 + **Problem Generator Design**: It seems Lecun did not consider it for the moment.  
@@ -106,11 +106,11 @@ Very recently, Professor Yann Lecun proposed an agent model based on the concept
 <div align="center">
 <img src="/assets/images/Agent-with-World-Model.png" width="80%" height="80%" />
 <br/>
-Figure 1. Agent with an Internal World Model[6]
+Figure 6. LeCun's Agent Model with an Internal World Model[5]
 </div>
 
 ### Unifying the Learning Agent Models
-The models proposed by Holland, Minsky and Lecun approach the design of a learning agent model for strong AI from different perspective and different emphases. With some non-difficult manipulation of their models, the performance element, learning element and critic design for an unified intelligent agent model may be proposed as follows: 
+The models proposed by Holland[2][3], Minsky[4] and Lecun[5] may approach the design of a learning agent model for strong AI from different perspective and different emphases. With some non-difficult manipulation of their models, the performance element, learning element and critic design for an unified intelligent agent model may be proposed as follows: 
 + **Performance Element Design: An aggregation of micro-agents described by simple reactive rules**.
 + **Learning Element and Critic Design: A collection of action modules for building, manipulating and evaluating higher-level (likely to be non-linear) representation of micro-agents' behaviours**.
 
