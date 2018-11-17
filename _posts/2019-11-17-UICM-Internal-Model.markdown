@@ -25,42 +25,14 @@ This paper is definitely NOT the first to answer the question, so let us review 
 ## A Brief Review of the Agent Internal Models
 An overview of the major five categories of agent models is given in Section 2.4 of [1] or in the [wikipedia page](https://en.wikipedia.org/wiki/Intelligent_agent). Except for the simplest form of agent model, the rest of the agent models includes an **internal world model**. 
 
-### Simple Reflex Agent model (SRA model)
-The agent function is based on the condition-action rule: if condition then action. So it may work well in a fully-observable world.
-<div align="center">
-<img src="/assets/images/1_Simple_reflex_agent.png" width="80%" height="80%" />
-<br/>
-Figure 2. Simple Reflex Agent model (SRA model)[1]
-</div>
+### Agent Model without Learning
 
-### Model-based, Reflex Agent model (MRA model)
-A **world model** is introduced to maintain some kind of structure, which describes the part of the world which cannot be observed.
++ **Simple Reflex Agent model (SRA model)**: The agent function is based on the condition-action rule: if condition then action. So it may work well in a fully-observable world.
++ **Model-based, Reflex Agent model (MRA model)**: A **world model** is introduced to maintain some kind of structure, which describes the part of the world which cannot be observed.
++ **Model-based, Goal-Based Agent model (MGA model)**: The **goal information** is introduced to describe desirable situations and allow an agent to choose among multiple possibilities, selecting the one which reaches a goal state. In the complex adatptive system [2], Holland proposed to incorporates co-existence of multiple micro SRA agents in an agent, and allowing the agent to select action sequences[2]. 
++ **Model-based, Utility-Based Agent model (MUA model)**: The **utility function** is introduced to measure the space spanning from the goal state and the non-goal state. 
 
-<div align="center">
-<img src="/assets/images/2_Model_based_reflex_agent.png" width="80%" height="80%" />
-<br/>
-Figure 2. Model-based, Reflex Agent model (MRA model)[1]
-</div>
-
-### Model-based, Goal-Based Agent model (MGA model)
-**Goal information** is introduced to describe desirable situations and allow an agent to choose among multiple possibilities, selecting the one which reaches a goal state. In the complex adatptive system [2], Holland proposed to incorporates co-existence of multiple micro SRA agents in an agent, and allowing the agent to select action sequences[2]. 
-
-<div align="center">
-<img src="/assets/images/3_Model_based_goal_based_agent.png" width="80%" height="80%" />
-<br/>
-Figure 3. Model-based, Goal-Based Agent model (MGA model)[1]
-</div>
-
-### Model-based, Utility-Based Agent model (MUA model)
-**Utility function** is introduced to measure the space spanning from the goal state and the non-goal state. 
-
-<div align="center">
-<img src="/assets/images/4_Model_based_utility_based.png" width="80%" height="80%" />
-<br/>
-Figure 4. Model-based, Utility-Based Agent model (MUA model)[1]
-</div>
-
-### Learning Agent model (LA model) 
+### Learning Agent model 
 Afore-mentioned agent models are **static**, as they do not explain how an agent may **learn and evolve**. Therefore, the LA model is quite different by introducing four conceptual components: 
 + A **performance element** to select external actions, which is equivalent to a static agent model that percepts from the world and decides external actions.
 + A **learning element** to make improvements by changing the performance element and gathering knowledge from the performance element. 
@@ -70,7 +42,7 @@ Afore-mentioned agent models are **static**, as they do not explain how an agent
 <div align="center">
 <img src="/assets/images/5_IntelligentAgent-Learning.png" width="80%" height="80%" />
 <br/>
-Figure 5. Learning Agent model (LA model) [1]
+Figure 1. Learning Agent model (LA model) [1]
 </div>
 
 ## Rethink the Learning Agent Model with an Internal World Model (WM)
@@ -106,7 +78,7 @@ Very recently, Professor Yann Lecun proposed an agent model based on the concept
 <div align="center">
 <img src="/assets/images/Agent-with-World-Model.png" width="80%" height="80%" />
 <br/>
-Figure 6. LeCun's Agent Model with an Internal World Model[5]
+Figure 2. LeCun's Agent Model with an Internal World Model[5]
 </div>
 
 ## Unifying the Learning Agent Models
@@ -120,6 +92,14 @@ However, it is not apparant to come up with a concrete and operable design for t
 
 Based on the above insights, we may propose a operable pathway to the problem generators for strong AI.
 + **Problem Generator Design: A set of modules to evaluate non-complete representation of complex action-reward interactions, to generate candidate action set, and to trigger reflective actions in the world model.**
+
+We may now graphically represent our UIC model with the receivers for modelling sensors' perceptions, transmitters for modelling acutators' actions, as well as the performance element, learning element, critic and problem generator for information source/destinations.
+
+<div align="center">
+<img src="/assets/images/agent-env-interactive-model-with-internal-model.png" width="40%" height="40%" />
+<br/>
+Figure 3. The Proposed UIC model with an Internal Model for Learning Agent
+</div>
 
 ## Short Conclusions
 In this chapter, we review the different agent models, with an emphasis on the learning agent model design, and propose an unified, complete and operable design for the learning agent. Along with the perception and action model proposed in the last chapter, we may form the complete UIC model for an intelligent agent. 
