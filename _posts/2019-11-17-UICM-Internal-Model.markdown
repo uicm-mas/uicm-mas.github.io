@@ -73,7 +73,7 @@ Afore-mentioned agent models are **static**, as they do not explain how an agent
 Figure 5. Learning Agent model (LA model) [1]
 </div>
 
-### Rethink the Learning Agent Model with an Internal World Model (WM)
+## Rethink the Learning Agent Model with an Internal World Model (WM)
 Although it is not pointed out explicitly in [1], the learning agent model may include a world model in its performance element. Therefore, the learning element may change the world model. 
 
 **If the design principle of the learning agent model is accepted (why NOT if we have not come up with a more reasonable model)**, then the problem of designing an intelligent agent may be further decomposed as follows:
@@ -83,13 +83,13 @@ Although it is not pointed out explicitly in [1], the learning agent model may i
 
 The answers to the above four questions may lead to the design principles of **Strong Artificial Intelligence**. Therefore, the answers to these questions are so attractive and many pioneering thoughts (NOT solutions) have been proposed to light our way. 
 
-#### Agent Model in Complex Adaptive Systems
+### Agent Model in Complex Adaptive Systems
 Professor Holland H. John is the pioneer of Complex Adaptive System Theory. In his 1995 treatize [2], Holland proposed the following works:
 + **Performance Element Design**: Holland proposed the design of the **performance system**, which has an input from sensors, an output to the acutators, while the performance element is a collection of interactive micro-agents based on IF-THEN rules.  
 + **Learning Element and Critic Design**: A **credit assignment** mechanism was proposed to allow multiple micro-agents to compete with each other. The micro-agent with higher reward from the critic is given a larger credit, hence improving performance of the agent. 
 + **Problem Generator Design**: A **rule discovery** mechanism was proposed based on the genetic algorithm, which was also invented by Holland.  
 
-#### Agent Model with Commonsense Thinking
+### Agent Model with Commonsense Thinking
 In [4], Professor Marvin Minsky proposed to model a (human) brain into a collection of **resources**, which may be activated by different **emotion states**. The thinking activities may be broken down into a series of six-layered actions: instinctive reactions, learned reactions, deliberate thinking, reflective thinking, self-reflective thinking and self-conscious reflection. **Higher-level thinking is built upon the ones below, and the lowest instinctive reaction level is driven by If-Do rules.**
 
 Specifically, we may re-organize Minsky's thoughts as follows:
@@ -97,7 +97,7 @@ Specifically, we may re-organize Minsky's thoughts as follows:
 + **Learning Element and Critic Design**: The higher-layer actions are built upon instinctive reactions. **Minsky emphasized the limitation of IF-THEN rules because the scalability of directly using IF-THEN rules for describing the complex world is infeasible, therefore, representations, evaluations and manipulations of higher-level abstraction is required.** It should be noted that Holland also dived much deeper later on following the same rule of agent model, introducing the concept of **dyanmic finitely generated systems** for modelling complex interactions between agents [3]. 
 + **Problem Generator Design**: The layers higher than deliberate thinking motivate an agent to criticize the reactive actions and explore un-explored world.  
 
-#### Self-Supervised Learning Agent Model
+### Self-Supervised Learning Agent Model
 Very recently, Professor Yann Lecun proposed an agent model based on the concept of **Self-Supervised Learning** with both a **deep structure** and **a world Model**[5]. The agent may do reasoning by combining predicting and planning with the aid of model-based deep reinforcement learning. Specifically, Lecun considered the following strategies:
 + **Performance Element Design**: A world model is needed, accumulating background knowledge about how the world works and perhaps include common sense. Deep (artificial neural) networks may model complex interactions with the aid of non-linear transformations within a manageable scale.
 + **Learning Element and Critic Design**: Latent-variable forward models is proposed for planning and learning policies, but it is also far from a complete solution.
@@ -109,7 +109,7 @@ Very recently, Professor Yann Lecun proposed an agent model based on the concept
 Figure 6. LeCun's Agent Model with an Internal World Model[5]
 </div>
 
-### Unifying the Learning Agent Models
+## Unifying the Learning Agent Models
 The models proposed by Holland[2][3], Minsky[4] and Lecun[5] may approach the design of a learning agent model for strong AI from different perspective and different emphases. With some non-difficult manipulation of their models, the performance element, learning element and critic design for an unified intelligent agent model may be proposed as follows: 
 + **Performance Element Design: An aggregation of micro-agents described by simple reactive rules**.
 + **Learning Element and Critic Design: A collection of action modules for building, manipulating and evaluating higher-level (likely to be non-linear) representation of micro-agents' behaviours**.
@@ -121,12 +121,12 @@ However, it is not apparant to come up with a concrete and operable design for t
 Based on the above insights, we may propose a operable pathway to the problem generators for strong AI.
 + **Problem Generator Design: A set of modules to evaluate non-complete representation of complex action-reward interactions, to generate candidate action set, and to trigger reflective actions in the world model.**
 
-### Short Conclusions
+## Short Conclusions
 In this chapter, we review the different agent models, with an emphasis on the learning agent model design, and propose an unified, complete and operable design for the learning agent. Along with the perception and action model proposed in the last chapter, we may form the complete UIC model for an intelligent agent. 
 
 In the next chapter, we would use the built UIC model to unify models for an agent and multi-Agent systems. 
 
-### References
+## References
 [1] Russell, Stuart J. and Peter Norvig. Artificial intelligence: a modern approach. Pearson Education Limited, 2011.
 
 [2] Holland, John H . Hidden Order: How Adaptation Builds Complexity. Leonardo, 1995.
