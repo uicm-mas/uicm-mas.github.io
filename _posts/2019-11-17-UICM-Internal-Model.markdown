@@ -93,7 +93,9 @@ However, it is not apparant to come up with a concrete and operable design for t
 Based on the above insights, we may propose a operable pathway to the problem generators for strong AI.
 + **Problem Generator Design: A set of modules to evaluate non-complete representation of complex action-reward interactions, to generate candidate action set, and to trigger reflective actions in the world model.**
 
-We may now graphically represent our UIC model with the receivers for modelling sensors' perceptions, transmitters for modelling acutators' actions, as well as the performance element, learning element, critic and problem generator for information source/destinations.
+We may now graphically represent our UIC model with the receivers for modelling sensors' perceptions, transmitters for modelling acutators' actions, as well as the performance element, learning element, critic and problem generator for information source/destinations. Please note we not only merge the different components in the learning agent model, but also provide guidelines for designing each of them. 
+
+The details of the UIC design would be provided in the following chapters, through more elaborations, case studies and insightful discussions.
 
 <div align="center">
 <img src="/assets/images/agent-env-interactive-model-with-internal-model.png" width="40%" height="40%" />
