@@ -27,6 +27,11 @@ An overview of the major five categories of agent models is given in Section 2.4
 
 ### Simple Reflex Agent model (SRA model)
 The agent function is based on the condition-action rule: if condition then action. So it may work well in a fully-observable world.
+<div align="center">
+<img src="/assets/images/1_Simple_reflex_agent.png" width="80%" height="80%" />
+<br/>
+Figure 2. Simple Reflex Agent model (SRA model)[1]
+</div>
 
 ### Model-based, Reflex Agent model (MRA model)
 A **world model** is introduced to maintain some kind of structure, which describes the part of the world which cannot be observed.
