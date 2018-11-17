@@ -128,9 +128,13 @@ In the next chapter, we would use the built UIC model to unify models for an age
 
 ### References
 [1] Russell, Stuart J. and Peter Norvig. Artificial intelligence: a modern approach. Pearson Education Limited, 2011.
+
 [2] Holland, John H . Hidden Order: How Adaptation Builds Complexity. Leonardo, 1995.
+
 [3] Holland, John H . Signals and boundaries : building blocks for complex adaptive systems. MIT Press, 2014.
+
 [4] Minsky M. The Emotion Machine: Commonsense Thinking, Artificial Intelligence, and the Future of the Human Mind[M]. SIMON & SCHUSTER, 2007.
+
 [5] Yann LeCun. Learning World Models: the Next Step towards AI. IJCAI KeyNote Speech, 2018.
 
 
