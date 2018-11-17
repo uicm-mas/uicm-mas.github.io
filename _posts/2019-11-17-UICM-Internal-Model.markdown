@@ -16,9 +16,9 @@ Further insights of the UIC model, as proposed in the outline of this paper, wou
 
 
 <div align="center">
-<img src="/assets/images/Shannon-Model-NoFeedback.png" width="100%" height="100%" />
+<img src="/assets/images/Agent-with-World-Model.png" width="100%" height="100%" />
 <br/>
-Figure 1. 
+Figure 1. Agent with an Internal World Model
 </div>
 
 ## Modelling Information Source and Destination: Is World Model a Good Abstraction?
