@@ -4,7 +4,6 @@ title:  "An Unified Intelligence-Communication Model for Multi-Agent System: Ove
 date:   2018-11-17 20:10:16 +0800
 categories: Open-Access Research Paper
 ---
-**Bo Zhang, Jinyu Yang**
 
 This paper would be fully open-access. My handwriting manuscript is prepared, but I need time to craft it into a rigorous research treatize. 
 
