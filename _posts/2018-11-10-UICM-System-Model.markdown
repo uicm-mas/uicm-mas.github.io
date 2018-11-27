@@ -6,8 +6,9 @@ categories: Open-Access Research Paper
 ---
 
 This paper would be fully open-access.
-The arxiv preview version is available @ https://arxiv.org/abs/1811.09920
-My handwriting manuscript is prepared, and I am currently crafting it into a rigorous research treatize. 
+The arxiv preview version is available @ [arxiv page](https://arxiv.org/abs/1811.09920)
+
+My handwriting manuscript is prepared, and I am currently crafting it into a rigorous research treatize.
 
 This Chapter introduces the motivation of the UIC model and the basic graphical description of the UIC model, illustrating the relationship between an intelligent agent and the environment. This chapter would cover the following aspects.
 + The environment is modelled as the generic communication channel between agents. 

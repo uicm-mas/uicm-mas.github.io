@@ -6,7 +6,8 @@ categories: Open-Access Research Paper
 ---
 
 This paper would be fully open-access.
-The arxiv preview version is available @ https://arxiv.org/abs/1811.09920
+The arxiv preview version is available @ [arxiv page](https://arxiv.org/abs/1811.09920)
+
 My handwriting manuscript is prepared, and I am currently crafting it into a rigorous research treatize. 
 
 ## Abstract 
