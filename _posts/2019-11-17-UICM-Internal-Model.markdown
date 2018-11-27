@@ -5,7 +5,9 @@ date:   2018-11-17 20:10:16 +0800
 categories: Open-Access Research Paper
 ---
 
-This paper would be fully open-access. My handwriting manuscript is prepared, but I need time to craft it into a rigorous research treatize. 
+This paper would be fully open-access.
+The arxiv preview version is available @ https://arxiv.org/abs/1811.09920
+My handwriting manuscript is prepared, and I am currently crafting it into a rigorous research treatize. 
 
 This Chapter introduces the model for information source and destination in the UIC model as proposed in the last chapter. This chapter would cover the following aspects.
 + The information source and destination is modelled, following the generic learning agent model, which includes a performance element, a learning element, a critic and a problem generator. 
