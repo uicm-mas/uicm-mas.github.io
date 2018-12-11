@@ -74,7 +74,7 @@ This extrinsic information exchanging process may be quantitatively analyzed and
 Further results for the case study in terms of the IE(A) and IE(B) curves would be provided in the version for publication.
 
 <div align="center">
-<img src="/assets/images/EXIT-charts.png" width="40%" height="40%" />
+<img src="/assets/images/EXIT-charts.png" width="70%" height="70%" />
 <br/>
 Fig. 4: Examples of Extrinsic Information Curves.If the curves of extrinsic information at the two component decoders form an open tunnel from (0,0) to (1,1), the learning process is likely to be successful, depending on the model for internal channels. If the two curves intersects other than (0,0) and (1,1), the learning process generally cannot reach a global optimum.
 </div>
