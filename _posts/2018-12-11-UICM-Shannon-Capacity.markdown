@@ -23,16 +23,14 @@ Fig. 1: The universal intelligence-communication model for AlphaZero.
 The perception and action of two self-playing AlphaZero agents may be modelled as decoders and encoders, which capture the interaction between agents and the environment.
 </div>
 
-In chess or Go, both agents try to win the game so that each agent tries to predict the behavior of each other. Therefore, we may generalize Shannon’s communication model by adding internal communication channels, which is depicted in Figure 2. 
+In chess or Go, both agents try to win the game so that each agent tries to predict the behavior of each other. Therefore, we may generalize Shannon’s communication model by adding internal communication channels, which is depicted in Figure 2. In agent A, it builds an internal environment model, including representations of the chessboard, the agent B and a critic (which is not illustrated in the figure) for evaluating the probability of winning. Therefore, agent A may play the game within itself with a virtual agent B over a virtual chessboard. This internal thinking process may also be modelled as a two-way reciprocal Shannon’s communication model. In order to distinguish between the different channels, we denote the communications between the real agent A and B as external communications, and the communication within agents itself as internal communications.
 
 <div align="center">
 <img src="/assets/images/Ext-Int-model-AlphaZero.png" width="80%" height="80%" />
 <br/>
 Fig. 2: The UICM for AlphaZero with internal world models and internal channels. 
 Each AlphaZero agent may build an internal channel or world model, where it virtually plays with the model of its opponent agent, predicts the effects of actions taken and learns the behavior of its opponent agent.
-</div>
-
-In agent A, it builds an internal environment model, including representations of the chessboard, the agent B and a critic (which is not illustrated in the figure) for evaluating the probability of winning. Therefore, agent A may play the game within itself with a virtual agent B over a virtual chessboard. This internal thinking process may also be modelled as a two-way reciprocal Shannon’s communication model. In order to distinguish between the different channels, we denote the communications between the real agent A and B as external communications, and the communication within agents itself as internal communications. 
+</div> 
 
 ### Intelligence Upper-bound of AlphaZero
 Now we may formalize the goal of a single agent in AlphaZero: 
