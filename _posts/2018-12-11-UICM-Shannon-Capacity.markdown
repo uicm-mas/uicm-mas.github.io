@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Learning as Decoding the World to Approach the Intelligence Upper-bound：An Intelligence-Communication Model and a Case Study of AlphaZero from Shannon’s Perspective"
+title:  "The Entropy of Artificial Intelligence and a Case Study of AlphaZero from Shannon's  Perspective"
 date:   2018-12-11 20:10:16 +0800
 categories: Open-Access Research Paper
 ---
 
 This paper would be fully open-access.
-The arxiv preview version is available @ [arxiv page]()
+The pre-print version is available @ [RG page](https://www.researchgate.net/publication/329571581_Learning_as_Decoding_the_World_to_Approach_the_Intelligence_Upper-bound_An_Intelligence-Communication_Model_and_a_Case_Study_of_AlphaZero_from_Shannon's_Perspective)
 
-The recently released AlphaZero algorithm achieves superhuman performance in the games of chess, shogi and Go, which raises two open questions. Firstly, as there is a finite number of possibilities in the game, is there an upper-bound for measuring AlphaZero’s intelligence and can we quantify it? Secondly, AlphaZero introduces sophisticated reinforcement learning and self-play to efficiently encode the possible states, is there a simple information-theoretic model to represent the learning process and offer more insights? This paper explores the above two questions by proposing a simple variance of Shannon’s communication model, an Unified Intelligence-Communication Model that provides an intelligence upper-bound for intelligent agents in the form of Shannon’s channel capacity, and applies to AlphaZero as an illustrating example. This paper also explains the learning process of intelligent agent as turbo-like iterative decoding, and the performance of AlphaZero is quantitatively evaluated. Finally, conclusions are provided along with theoretical and practical remarks.
+The recently released AlphaZero algorithm achieves superhuman performance in the games of chess, shogi and Go, which raises two open questions. Firstly, as there is a finite number of possibilities in the game, is there a measurement for evaluating the intelligence of intelligent system like AlphaZero and can we quantify it? Secondly, AlphaZero introduces sophisticated reinforcement learning and self-play to efficiently encode the possible states, is there a simple information-theoretic model to represent the learning process and offer more insights? This paper explores the above two questions by proposing a simple variance of Shannon’s communication model, the concept of **intelligence entropy** and the Unified Intelligence-Communication Model is proposed, which provide a infromation-theoretic metric for investigating the intelligence level and also provide an upper-bound for intelligent agents in the form of Shannon’s channel capacity, namely, the **intelligence capacity**. This paper then applies the concept and model to AlphaZero as a case study and explains the learning process of intelligent agent as turbo-like iterative decoding, so that the learing performance of AlphaZero may be quantitatively evaluated. Finally, conclusions are provided along with theoretical and practical remarks.
 
 ## Introduction
 This is a previewed version of treatise. A brief review of the related research would be given in detail of a later version for journal publication. Let us directly get through the jungle of the AI’s history and referred the latest success of DeepMind’s AlphaZero to the recent report in Science (1), and use Shannon’s communication model (2) to analyze the intelligence upper-bound and the learning process of intelligent agents, and provide a case study of AlphaZero.
@@ -32,18 +32,20 @@ Fig. 2: The UICM for AlphaZero with internal world models and internal channels.
 Each AlphaZero agent may build an internal channel or world model, where it virtually plays with the model of its opponent agent, predicts the effects of actions taken and learns the behavior of its opponent agent.
 </div> 
 
-### Intelligence Upper-bound of AlphaZero
-Now we may formalize the goal of a single agent in AlphaZero: 
+### Intelligence Entropy and Intelligence Capacity
+Now we may formalize the goal of a single agent in AlphaZero: In the two-player zero-sum game over a communication channel, the amount of source information of agent B decoded by agent A is denoted as IB-A, and that of agent A decoded by agent B is denoted as IA-B. The condition of agent A dominates is IB-A > IA-B, namely, agent A conquers agent B in terms of being more certain of its opponent’s strategies so that more effective actions may be taken.
 
-**In the two-player zero-sum game over a communication channel, the amount of source information of agent B decoded by agent A is denoted as IB-A, and that of agent A decoded by agent B is denoted as IA-B. The condition of agent A dominates is IB-A > IA-B, namely, agent A conquers agent B in terms of being more certain of its opponent’s strategies so that more effective actions may be taken.**
+Motivated by the analysis of AlphaZero, we propose the concept of Intelligence Entropy. **The Intelligence Entropy is the amount of information recovered by the agent from the environment (e.g. the external communication channel), which may be quantified by entropy**
 
-Therefore, the maximum amount of information that can be decoded by agent A may be quantified by the entropy of information source, which in turn, would be upper-bounded by the well-defined Shannon capacity of the external communication channel. In the case of Go, the channel capacity may be roughly quantified by the (361!) possible states of the chessboard, where the inequality stands for effects that the rules of Go may prohibit some of the actions taken.
+Therefore, the maximum amount of information that can be decoded by an agent may be quantified by the entropy of information source, which in turn, would be upper-bounded by the well-defined Shannon capacity of the external communication channel. In the case of Go, the channel capacity may be roughly quantified by the (361!) possible states of the chessboard, where the inequality stands for effects that the rules of Go may prohibit some of the actions taken.
 
 MAX ( I(B-A), I(A-B) ) ≤ C ≤ log2(361!) ≈ 2552.
 
-As the information-theoretic upper-bound of AlphaZero is formulated as the Shannon channel capacity, we may now take a closer look at how AlphaZero approaches the capacity by designing a sophisticated decoder.   
+Here, we propose the definition of Intelligence Capacity. **Given a certain external environment and a specific task, the Intelligence Capacity denotes the maximum amount of entropy that can be extracted from the environment by the agent. It is an indicator for the highest level of intelligence for executing a specific task in a given environment, hence may define the ultimate intelligence.**
 
 ### AlphaZero Self-Play Models as an Iterative Decoder
+As the information-theoretic upper-bound of AlphaZero is formulated as the Shannon channel capacity, we may now take a closer look at how AlphaZero approaches the capacity by designing a sophisticated decoder.   
+
 Both competing agents are co-evolving in the internal communication channel of AlphaZero, and each agent decodes the information from the external and internal communication channel independently and iteratively. We may formulate each agent as an component decoder, as a variance of the famous turbo decoder in the information-theoretic society (3), which made a breakthrough in approaching the Shannon capacity for error-correction code design. The decoder structure can be directly extracted from the architecture of Figure 2, but we re-plot it in Figure 3 to make it more explicit.
 
 <div align="center">
